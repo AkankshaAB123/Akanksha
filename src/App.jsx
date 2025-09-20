@@ -1,49 +1,41 @@
+import React from "react";
+import { Routes, Route } from "react-router-dom";
 import "./App.css";
+
+import Header from "./Components/Header.jsx";
+import Footer from "./Components/Footer.jsx";
+import Home from "./Components/Home.jsx";
+import Login from "./Components/Login.jsx";
+import Signup from "./Components/Signup.jsx";
+import Admin from "./Components/Admin.jsx";
+import Membership from "./Components/Membership.jsx";
+import MemberSearch from "./Components/MemberSearch.jsx";
+import MemberPage from "./Components/MemberPage.jsx";
+import AddGame from "./Components/AddGame.jsx";
+import Collections from "./Components/Collections.jsx";
+import PlayGame from "./Components/PlayGame.jsx";
 
 function App() {
   return (
     <div className="app-container">
-      {/* Header */}
-      <header className="header">
-        <div className="logo">🎮 Gaming Club</div>
-        <nav className="nav">
-          <button>Membership</button>
-          <button>Member</button>
-          <button>Add Game</button>
-          <button>Collections</button>
-        </nav>
-        <div className="auth">
-          <button>Admin</button>
-          <button>Logout</button>
-        </div>
-      </header>
+      <Header />
 
-      {/* Main Section */}
       <main className="main-content">
-        <h2>CREATE MEMBERSHIP</h2>
-        <form className="form">
-          <label>
-            Name:
-            <input type="text" placeholder="Enter name" />
-          </label>
-          <label>
-            Phone:
-            <input type="text" placeholder="Enter phone" />
-          </label>
-          <label>
-            Membership Fee:
-            <input type="number" placeholder="Enter fee" />
-          </label>
-          <button type="submit" className="submit-btn">
-            Create Membership
-          </button>
-        </form>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/signup" element={<Signup />} />
+          <Route path="/admin" element={<Admin />} />
+          <Route path="/membership" element={<Membership />} />
+          <Route path="/member-search" element={<MemberSearch />} />
+          <Route path="/member-page" element={<MemberPage />} />
+          <Route path="/add-game" element={<AddGame />} />
+          <Route path="/collections" element={<Collections />} />
+          <Route path="/play-game" element={<PlayGame />} />
+        </Routes>
       </main>
 
-      {/* Footer */}
-      <footer className="footer">
-        © 2025 Gaming Club. All rights reserved.
-      </footer>
+      <Footer />
     </div>
   );
 }

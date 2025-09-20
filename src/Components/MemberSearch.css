@@ -1,21 +1,32 @@
 .member-search-container {
   width: 100%;
-  margin: 20px auto;
-  padding: 20px;
+  height: 80vh; /* Full screen height */
+  margin: 0; /* Remove margins so it fills the viewport */
+  padding: 40px;
   border: 2px solid #222;
-  border-radius: 10px;
+  border-radius: 0; /* Full screen looks cleaner without rounded corners */
   background: #fafafa;
   font-family: Arial, sans-serif;
+
+  display: flex; 
+  flex-direction: column;
+  justify-content: center; /* Vertically center */
+  align-items: center;     /* Horizontally center */
+  box-sizing: border-box;
 }
 
 .member-search-container h2 {
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+  font-size: 28px;
+  color: #222;
 }
 
 .search-form {
   display: flex;
   flex-direction: column;
+  width: 100%;
+  max-width: 400px; /* Keeps form neat in center */
 }
 
 .search-form label {
@@ -24,20 +35,21 @@
 }
 
 .search-form input {
-  padding: 8px;
+  padding: 10px;
   margin-top: 5px;
   border-radius: 5px;
   border: 1px solid #ccc;
 }
 
 .search-form button {
-  margin-top: 15px;
-  padding: 10px;
+  margin-top: 20px;
+  padding: 12px;
   background: #4caf50;
   color: white;
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  font-size: 16px;
 }
 
 .search-form button:hover {
