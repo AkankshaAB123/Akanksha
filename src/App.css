@@ -1,0 +1,95 @@
+/* Main Container */
+.app-container {
+  font-family: Arial, sans-serif;
+  border: 2px solid black;
+  width: 100%;               /* full width */
+  height: 100vh;             /* full viewport height */
+  margin: 0;                 /* remove auto margin */
+  background-color: #010d17;
+  display: flex;
+  flex-direction: column;
+  color: rgb(14, 86, 243);
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #222;
+  color: rgb(11, 219, 49);
+  padding: 10px 20px;
+}
+
+.logo {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.nav button,
+.auth button {
+  margin: 0 5px;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+  background: #4caf50;
+  color: rgb(16, 1, 1);
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.nav button:hover,
+.auth button:hover {
+  background: #45a049;
+}
+
+/* Main Content */
+.main-content {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Forms */
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 20px auto;
+  text-align: left;
+}
+
+.form label {
+  margin: 10px 0 5px;
+}
+
+.form input {
+  padding: 8px;
+  width: 100%;
+  border: 1px solid #15ec76;
+  border-radius: 4px;
+}
+
+/* Submit Button */
+.submit-btn {
+  margin-top: 15px;
+  padding: 10px;
+  background: #4caf50;
+  color: rgb(8, 247, 60);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.submit-btn:hover {
+  background: #45a049;
+}
+
+/* Footer */
+.footer {
+  background: #222;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}

@@ -1,0 +1,58 @@
+.collections-container {
+  width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 2px solid #222;
+  border-radius: 10px;
+  background: #fafafa;
+  font-family: Arial, sans-serif;
+}
+
+.collections-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.date-form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.date-form label {
+  margin-right: 10px;
+}
+
+.date-form input {
+  padding: 5px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.date-form button {
+  padding: 5px 10px;
+  background: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.date-form button:hover {
+  background: #45a049;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: center;
+}
+
+tfoot td {
+  font-weight: bold;
+}
