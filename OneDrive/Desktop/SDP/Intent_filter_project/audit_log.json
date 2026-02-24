@@ -1,0 +1,52 @@
+[
+    {
+        "timestamp": "2026-02-23 21:05:04.178312",
+        "input": "What should be the average cgpa for attending the placements?",
+        "classification": {
+            "intent": "concept_explanation",
+            "risk_level": "low",
+            "confidence": "0.8",
+            "reason": "The student is asking for general information about the average CGPA required for attending placements, which is a concept-related query."
+        }
+    },
+    {
+        "timestamp": "2026-02-24 09:40:02.279113",
+        "input": "How is cgpa calculated?\n",
+        "classification": {
+            "intent": "concept_explanation",
+            "risk_level": "low",
+            "confidence": "0.9",
+            "reason": "The student is asking for an explanation of a general academic concept (CGPA calculation) without referencing a specific assignment or task."
+        }
+    },
+    {
+        "timestamp": "2026-02-24 09:55:51.514701",
+        "input": "How to calculate cgpa from sgpa",
+        "classification": {
+            "intent": "concept_explanation",
+            "risk_level": "low",
+            "confidence": "0.9",
+            "reason": "The student is asking for a general explanation of how to calculate CGPA from SGPA, which is a common academic concept."
+        }
+    },
+    {
+        "timestamp": "2026-02-24 09:58:58.929629",
+        "input": "How to calculate cgpa percentage?\n",
+        "classification": {
+            "intent": "concept_explanation",
+            "risk_level": "low",
+            "confidence": "0.9",
+            "reason": "The student is asking for a general explanation of how to calculate CGPA percentage, which is a common academic concept."
+        }
+    },
+    {
+        "timestamp": "2026-02-24 10:05:20.828121",
+        "input": "Explain binary search",
+        "classification": {
+            "intent": "concept_explanation",
+            "risk_level": "low",
+            "confidence": "0.9",
+            "reason": "The student is asking for an explanation of a specific concept (binary search) without requesting a solution to a particular assignment or problem."
+        }
+    }
+]

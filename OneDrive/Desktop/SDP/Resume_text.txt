@@ -1,0 +1,24 @@
+Akanksha Bejgam
+
+
+Email: akankshabejgam28@email.com
+Phone: +91-9380918551
+
+Professional Summary:
+Software Engineer with 3 years of experience in Python development and Artificial Intelligence applications. Experienced in building REST APIs and machine learning models.
+
+Skills:
+Python, Machine Learning, FastAPI, SQL, Pandas, NumPy, Git, Docker
+
+Experience:
+Software Engineer at TechNova Solutions (2021–Present)
+- Developed ML models for prediction systems
+- Built REST APIs using FastAPI
+- Worked with MySQL databases
+
+Education:
+B.E. Computer Science, VTU University (2021)
+
+Projects:
+AI Chatbot for Student Support System
+Resume Classification using NLP

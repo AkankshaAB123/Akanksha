@@ -1,0 +1,7 @@
+2026-02-23 19:42:03,582 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-23 19:42:03,662 - ERROR - Attempt 1 failed for note: headache. Error: JSON Error: Expecting value: line 1 column 1 (char 0)
+2026-02-23 19:42:03,911 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-23 19:42:03,912 - ERROR - Attempt 2 failed for note: headache. Error: JSON Error: Expecting value: line 1 column 1 (char 0)
+2026-02-23 19:46:16,774 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-23 19:46:16,786 - WARNING - Low Confidence (0.4) for: headache
+2026-02-23 19:46:35,851 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"

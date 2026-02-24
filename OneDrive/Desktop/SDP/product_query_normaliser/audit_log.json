@@ -1,0 +1,154 @@
+[
+    {
+        "timestamp": "2026-02-24 11:05:12.178312",
+        "input": "Best headphones around 4k for gym",
+        "normalization": {
+            "product_type": "headphones",
+            "price_range": {
+                "min": null,
+                "max": 4000
+            },
+            "usage_context": "gym",
+            "feature_preferences": [],
+            "missing_fields": [],
+            "needs_clarification": false,
+            "reason": "The query clearly specifies product type, approximate budget (4k), and usage context (gym). No ambiguity detected."
+        }
+    },
+    {
+        "timestamp": "2026-02-24 11:12:45.279113",
+        "input": "Good laptop for programming",
+        "normalization": {
+            "product_type": "laptop",
+            "price_range": {
+                "min": null,
+                "max": null
+            },
+            "usage_context": "programming",
+            "feature_preferences": [],
+            "missing_fields": [
+                "price_range"
+            ],
+            "needs_clarification": true,
+            "reason": "Product type and usage context identified, but budget is missing."
+        }
+    },
+    {
+        "timestamp": "2026-02-24 11:20:51.514701",
+        "input": "Need a cheap phone",
+        "normalization": {
+            "product_type": "phone",
+            "price_range": {
+                "min": null,
+                "max": null
+            },
+            "usage_context": null,
+            "feature_preferences": [],
+            "missing_fields": [
+                "price_range",
+                "usage_context"
+            ],
+            "needs_clarification": true,
+            "reason": "The term 'cheap' is ambiguous and no usage context is provided."
+        }
+    },
+    {
+        "timestamp": "2026-02-24 11:28:58.929629",
+        "input": "Looking for shoes",
+        "normalization": {
+            "product_type": "shoes",
+            "price_range": {
+                "min": null,
+                "max": null
+            },
+            "usage_context": null,
+            "feature_preferences": [],
+            "missing_fields": [
+                "price_range",
+                "usage_context"
+            ],
+            "needs_clarification": true,
+            "reason": "Only product type is provided. Budget and usage context are missing."
+        }
+    },
+    {
+        "timestamp": "2026-02-24 11:35:20.828121",
+        "input": "Best smartwatch under 20000 with AMOLED display",
+        "normalization": {
+            "product_type": "smartwatch",
+            "price_range": {
+                "min": null,
+                "max": 20000
+            },
+            "usage_context": null,
+            "feature_preferences": [
+                "AMOLED display"
+            ],
+            "missing_fields": [
+                "usage_context"
+            ],
+            "needs_clarification": true,
+            "reason": "Product type, budget, and feature preference identified. Usage context not specified."
+        }
+    },
+    {
+        "timestamp": "2026-02-24 10:36:23",
+        "raw_query": "Best smartwatch under 20000 with AMOLED display",
+        "structured_output": null,
+        "needs_clarification": true
+    },
+    {
+        "timestamp": "2026-02-24 10:36:26",
+        "raw_query": "Best smartwatch under 20000 with AMOLED display",
+        "structured_output": null,
+        "needs_clarification": true
+    },
+    {
+        "timestamp": "2026-02-24 10:36:28",
+        "raw_query": "Best smartwatch under 20000 with AMOLED display",
+        "structured_output": null,
+        "needs_clarification": true
+    },
+    {
+        "timestamp": "2026-02-24 10:36:51",
+        "raw_query": "Laptop under 50000",
+        "structured_output": null,
+        "needs_clarification": true
+    },
+    {
+        "timestamp": "2026-02-24 10:38:08",
+        "raw_query": "Best headphones around 4k for gym",
+        "structured_output": null,
+        "needs_clarification": true
+    },
+    {
+        "timestamp": "2026-02-24 10:39:09",
+        "raw_query": "Best headphones around 4k for gym",
+        "structured_output": {
+            "product_type": "headphones",
+            "price_range": {
+                "min": null,
+                "max": 4000
+            },
+            "usage_context": "gym",
+            "feature_preferences": [],
+            "missing_fields": []
+        },
+        "needs_clarification": false
+    },
+    {
+        "timestamp": "2026-02-24 10:39:29",
+        "raw_query": "Best headphones around 4k for gym",
+        "structured_output": {
+            "product_type": "headphones",
+            "price_range": {
+                "min": null,
+                "max": 4000
+            },
+            "usage_context": "gym",
+            "feature_preferences": [],
+            "missing_fields": []
+        },
+        "needs_clarification": false
+    }
+]
