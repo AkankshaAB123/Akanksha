@@ -1,0 +1,119 @@
+.collections-container {
+  min-height: 100vh; /* Full screen height */
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px;
+  background: linear-gradient(135deg, #fdfbfb, #ebedee);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  animation: fadeIn 0.6s ease-in-out;
+}
+
+/* Title */
+.collections-container h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 32px;
+  font-weight: bold;
+  color: #222;
+}
+
+/* Date Form */
+.date-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 25px;
+  flex-wrap: wrap;
+}
+
+.date-form label {
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+}
+
+.date-form input {
+  padding: 10px 14px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+  outline: none;
+  transition: all 0.3s;
+}
+
+.date-form input:focus {
+  border-color: #4caf50;
+  box-shadow: 0 0 6px rgba(76, 175, 80, 0.4);
+}
+
+.date-form button {
+  padding: 10px 20px;
+  background: linear-gradient(135deg, #4caf50, #43a047);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.date-form button:hover {
+  background: linear-gradient(135deg, #45a049, #3e8e41);
+  transform: translateY(-2px);
+}
+
+/* Table */
+.collections-table {
+  width: 100%;
+  max-width: 1000px;
+  border-collapse: collapse;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+}
+
+.collections-table th {
+  background: #4caf50;
+  color: white;
+  padding: 14px;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.collections-table td {
+  border: 1px solid #eee;
+  padding: 12px;
+  text-align: center;
+  font-size: 15px;
+  color: #333;
+}
+
+.collections-table tr:nth-child(even) {
+  background: #f9f9f9;
+}
+
+tfoot td {
+  font-weight: bold;
+  background: #f1f1f1;
+  color: #222;
+  padding: 14px;
+}
+
+/* Smooth Fade Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

@@ -1,0 +1,53 @@
+.add-game-container {
+  width: 100%;
+  margin: 20px auto;
+  padding: 20px;
+  border: 2px solid #222;
+  border-radius: 10px;
+  background: #fafafa;
+  font-family: Arial, sans-serif;
+}
+
+.add-game-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form label {
+  margin-bottom: 10px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form input[type="text"],
+.form input[type="number"] {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 60%;
+}
+
+.form input[type="checkbox"] {
+  margin-left: 10px;
+}
+
+.form button {
+  margin-top: 15px;
+  padding: 10px;
+  background: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form button:hover {
+  background: #45a049;
+}
